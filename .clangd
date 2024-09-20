@@ -1,0 +1,17 @@
+CompileFlags:
+  Add: 
+    - "-I/nix/store/h301b1cskjv2dagp07x6q81l6284akkn-gcc-13.2.0/include/c++/13.2.0"
+    - "-I/nix/store/h301b1cskjv2dagp07x6q81l6284akkn-gcc-13.2.0/include/c++/13.2.0/i686-unknown-linux-gnu"
+    - "-I/nix/store/h301b1cskjv2dagp07x6q81l6284akkn-gcc-13.2.0/include/c++/13.2.0/parallel"
+    - "-I/nix/store/h301b1cskjv2dagp07x6q81l6284akkn-gcc-13.2.0/include"
+    - "-I/nix/store/95iw6rgr5fbmywa8cbpzqgyakfkjh0ka-clang-17.0.6/lib/clang/17.0.6/include"
+    - "-isystem/nix/store/h301b1cskjv2dagp07x6q81l6284akkn-gcc-13.2.0/include/c++/13.2.0"
+    - "-isystem/nix/store/h301b1cskjv2dagp07x6q81l6284akkn-gcc-13.2.0/include/c++/13.2.0/i686-unknown-linux-gnu"
+    - "-isystem/nix/store/h301b1cskjv2dagp07x6q81l6284akkn-gcc-13.2.0/include"
+    - "-isystem/nix/store/95iw6rgr5fbmywa8cbpzqgyakfkjh0ka-clang-17.0.6/lib/clang/17.0.6/include"
+    - "-isystem/run/current-system/sw/include"
+    - "-std=c++17"
+    - "-D__GLIBC_PREREQ(a,b)=1"
+  Remove: 
+    - "-W*"
+    - "-std=*"
